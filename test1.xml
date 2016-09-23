@@ -1,1 +1,12 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_setmotors" id="47" inline="true" x="209" y="218">
+    <value name="BOTHMOVLEFT">
+      <block type="math_shift" id="54" inline="true">
+        <field name="OP">LEFT</field>
+      </block>
+    </value>
+    <value name="BOTHMOVRIGHT">
+      <block type="multimedia_pollwav" id="61"></block>
+    </value>
+  </block>
+</xml>
